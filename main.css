@@ -1,0 +1,79 @@
+﻿html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+        padding: 0;
+        border: 0;
+        margin: 0;
+      }
+      h1 {
+        color: #000000;
+        margin: 0 0 15px 0;
+		text-align: center;
+      }
+      h2 {
+        color: #000000;
+        margin: 15px 0 15px;
+		text-align: center;
+      }
+      h3 {
+        color: #333333;
+        margin: 20px 0 5px 0;
+        border-bottom: 1px solid #aaaaaa;
+        padding: 2px;
+      }
+      h4 {
+        color: #666666;
+        margin: 10px 0 10px 0;
+      }
+      p {
+        color: #444444;
+        margin: 0 0 10px 0;
+      }
+      a {
+        color: #440000;
+      }
+      ul {
+        padding: 0 0 0 30px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      body {
+        padding: 0;
+		background-image: url("website-background.jpg");
+      }
+	  .header {
+		  padding: 15px;
+		  width: auto;
+		  margin: 0 auto 0 auto;
+		  background-color: gray; 
+      }
+	  .header h1{
+		  color: white;
+	  }
+	  .header h2{
+		  color: white;
+	  }
+	  .header a{
+		  text-decoration: none;
+		  color: white;
+	  }
+      .content-section {
+		  padding: 15px;
+		  width: 550px;
+		  margin: 30px auto 30px auto;
+		  background-image: url("website-background.jpg") no-repeat center center fixed;
+      }
+      ol {
+        padding: 0 0 0 20px;
+	  }
+	  .nav {
+	    padding: 0;
+		text-align: center;
+		}
+      .nav li {
+         display: inline;
+         padding-right: 20px;
+		 text-align: center;
+       }
+      .nav li:last-child {
+       padding-right: 0;
+       }
